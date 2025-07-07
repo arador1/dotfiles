@@ -1,11 +1,10 @@
-@theme "./style-1.rasi"
 
+@theme "/usr/share/rofi/themes/solarized.rasi"
 
 configuration {
-    font:				"JetBrainsMono Nerd Font 14";
-  
-    
+    font:"JetBrainsMono Nerd Font 14";
+    modi:"drun";
+    show-icons:true;
+    display-drun:" ";
+    drun-display-format:"{name}";
 }
-
-
-
