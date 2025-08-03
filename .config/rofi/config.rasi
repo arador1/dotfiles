@@ -2,9 +2,13 @@
 @theme "/usr/share/rofi/themes/solarized.rasi"
 
 configuration {
-    font:"JetBrainsMono Nerd Font 14";
+    font:"JetBrainsMono Nerd Font 16";
     modi:"drun";
     show-icons:true;
     display-drun:" ";
     drun-display-format:"{name}";
 }
+
+/*element-icon {
+    size: 2ch ; 
+} */
